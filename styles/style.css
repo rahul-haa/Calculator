@@ -246,6 +246,19 @@ body {
   transform: scale(1.08);
 }
 
+#github-btn:hover {
+  background: rgba(138, 92, 246, 0.2);
+  box-shadow: 0 0 12px rgba(138, 92, 246, 0.25);
+}
+
+#github-btn svg {
+  transition: transform 0.3s ease;
+}
+
+#github-btn:hover svg {
+  transform: rotate(360deg);
+}
+
 .icon-btn:active {
   transform: scale(0.95);
 }
